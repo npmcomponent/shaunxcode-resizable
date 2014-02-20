@@ -1,0 +1,17 @@
+{
+  "name": "shaunxcode-resizable",
+  "description": "resize element",
+  "version": "0.0.1",
+  "keywords": [
+    "utility",
+    "element",
+    "resize"
+  ],
+  "styles": [
+    "index.css"
+  ],
+  "dependencies": {
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "component-classes": "git://github.com/npmcomponent/component-classes.git"
+  }
+}

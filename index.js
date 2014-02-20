@@ -4,9 +4,9 @@
     __slice = [].slice,
     __indexOf = [].indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; };
 
-  Emitter = require("emitter");
+  Emitter = require('component-emitter');
 
-  classes = require("classes");
+  classes = require('component-classes');
 
   handleDirs = {
     n: {
